@@ -29,4 +29,4 @@ if __name__ == "__main__":
     if (sys.argv[1] == "ip"):
         investigate_ip_address(sys.argv[2])
     else: 
-        print("Please insert an IP address.")
+        print('Please insert an IP address with the "ip" argument preceding it.')
